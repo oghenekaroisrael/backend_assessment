@@ -2,8 +2,6 @@ const User = require('../models/User')
 const validateUser = require('../models/User')
 const ErrorResponse = require('../helpers/errorResponse')
 const asyncHandler = require('../middlewares/asyncHandler')
-const { ObjectId } = require('mongodb')
-const { isUuid } = require('uuidv4')
 
 // Method to add a user 
 exports.addUser = asyncHandler(async (req, res, next) => {

@@ -30,13 +30,14 @@
     "mongoose-uuid-parser": "^0.1.0",
     "node-mocks-http": "^1.11.0",
     "path": "^0.12.7",
-    "uuid-mongodb": "^2.5.1"
+    "supertest": "^6.2.4",
+    "uuid-mongodb": "^2.5.1",
+    "uuidv4": "^6.2.13",
+    "jest": "^29.0.3",
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.2",
-    "jest": "^29.0.3",
-    "nodemon": "^2.0.19",
-    "supertest": "^6.2.4"
+    "nodemon": "^2.0.19"
   }
 }
