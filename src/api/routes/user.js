@@ -7,7 +7,7 @@ const User = require('../models/User')
 
 /** 
  * Create A New User 
- * @route GET /api/users/:id
+ * @route GET /api/users/create
  * 
  * @body    firstName:  string,     -> Required
  *              lastName:   string, -> Required
